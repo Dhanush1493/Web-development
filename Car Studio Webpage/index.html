@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanush Car Studio</title>
+    <link rel="icon" href="dhanush logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="circle">
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="CAR logo.png" alt="car logo" width="125px" height="90px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Product">Products</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="#Account">Account</a></li>
+                    </ul>
+                </nav>
+                <img class="cart"
+                    src="shopping-cart.png"  height="30">
+                <img class="menu" src="menuicon.png" onclick="menutoggle()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col2">
+                <h1>
+                    Now It's Time!<br>With A Brand New Things.</h1>
+                <p>Cars are not just a vehicle it an emotion, which has to come in everyone's life</p>
+                <a href="" class="btn">Explore Now &#8608;</a>
+
+            </div>
+            <div class="col2">
+                <img src="img 2.jpg"
+                    alt="BMW image">
+            </div>
+        </div>
+    </div>
+    <!-- featured Machines -->
+    <h2 class="title">Featured Machines</h2>
+    <div class="large-container">
+        <div class="Product">
+            <div class="rows">
+                <div class="col4">
+                    <img class="demo"
+                        src="1. porche 911 gt.jpg" height="220px">
+                    <h4>Porche 911 GT </h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$231,700</p>
+                </div>
+                <div class="col4">
+                    <img
+                        src="2. bmw m4.jpg" height="230px" width="220px">
+                    <h4>BMW M4 competition</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$80,000</p>
+                </div>
+                <div class="col4">
+                    <div class="demi">
+                        <img src="3. porche tycan.jpg"
+                        height="230px" width="220px">
+                    </div>
+                    <h4>porche Tycan</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$90,000</p>
+                </div>
+                <div class="col4">
+                    <img src="4. koenigsegg agera.jpg" height="230px" width="220px">
+                    <h4>Koenigsegg Agera </h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$2,550,000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="title">Latest Machines</h2>
+    <div class="rows">
+        <div class="col4">
+            <img class="product"
+                src="5. Defender.jpg"  height="230px" width="220px">
+            <h4>Land Rover Defender</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+            <p>$68,000</p>
+        </div>
+        <div class="col4">
+            <img class="product"
+                src="6. gtr.jpg"  height="230px" width="220px">
+            <h4>Nissan GTR R35</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$215,000</p>
+        </div>
+        <div class="col4">
+            <div class="demi">
+                <img src="7. mustang.jpg" height="230px" width="220px">
+            </div>
+            <h4>Ford Mustang Shelby GT500</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$79,000</p>
+        </div>
+        <div class="col4">
+            <img src="8. Audi R8 V10.jpg"  height="230px" width="220px">
+            <h4>Audi R8 V10</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$150,000</p>
+        </div>
+        <div class="col4">
+            <img
+                src="9. Jaguar F-Type R.jpg"  height="230px" width="220px">
+            <h4>Jaguar F-Type R </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$105,000</p>
+        </div>
+        <div class="col4">
+            <div class="demi">
+                <img src="10. BMW M8 Competition.jpg" height="230px" width="220px">
+            </div>
+            <h4>BMW M8 Competition</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$130,000</p>
+        </div>
+        <div class="col4">
+            <img src="11. Maserati MC20.jpg"  height="230px" width="220px">
+            <h4>Maserati MC20</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$210,000</p>
+        </div>
+        <div class="col4">
+            <div class="demi">
+                <img src="12. Aston Martin Vantage.jpg"
+                height="230px" width="220px">
+            </div>
+            <h4>Aston Martin Vantage</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$140,000</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="offer">
+        <div class="small-container"></div>
+        <div class="rows">
+            <div class="col-2">
+                <img class="offer-img" height="300px" width="300px"
+                    src="paul walker.jpg">
+
+            </div>
+
+            <div class="col-2">
+                <p>Exclusively for <strong><u>fast and furious fans</u></strong></p>
+                <h2>Paul walker </h2>
+                <small>He is an enigmatic, mysterious, and highly-esteemed
+                </small><br>
+                <a href=""class="bt">Watch fast five on Primevedio &#8594;</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------testimonial------ -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="rows">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Vin Diesel is an American actor, producer, and filmmaker, best known for creating and starring as Dominic Toretto in the Fast & Furious franchise. With over $7 billion in global box office earnings, the franchise is one of the highest-grossing in history, making Diesel one of the most recognizable action stars worldwide.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img
+                        src="vin diesel.jpg">
+                    <h3 class="name">Vin Diesel</h3>
+
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Jann Mardenborough is a British professional racing driver and esports player, known for winning the GT Academy competition in 2011. Transitioning from virtual to real-world racing, he has competed in series such as GP3, Formula 3, and the 24 Hours of Le Mans. His unique journey has made him a prominent figure in both motorsport and gaming communities.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img
+                        src="Jann Mardenborough.jpg">
+                    <h3 class="name">Jann Mardenborough</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="footer">
+            <div class="container">
+                <div class="rows">
+                    <div class="footer-col1">
+                        <h3>Dowload Our App</h3>
+                        <p>Dowload App for Android and IOS mobile</p>
+                        <div class="app-logo">
+                            <img
+                                src="download.png">
+                            </div>
+                    </div>
+                    <div class="footer-col2">
+                        <img src="dhanush logo.png">
+                        <p>Our Purpose Is To Sustainably Make the Benefits of Car fans </p>
+                    </div>
+                    <div class="footer-col3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Posts</li>
+                            <li>Join Club</li>
+                            <li>Donate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col4">
+                        <h3>Follow US</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">Copyright 2024 - Dhanush</p>
+            </div>
+        </div>
+        <!-- js for toggle menu -->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+            function menutoggle() {
+                if (MenuItems.style.maxHeight == "0px") {
+                    MenuItems.style.maxHeight = "200px";
+
+                }
+                else {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+
+                setTimeout(menutime,4000);
+                function menutime(){
+                    document.getElementById("title").innerHTML;
+                }
+ 
+        </script>
+</body>
+
+
+</html>
