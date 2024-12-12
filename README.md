@@ -62,14 +62,14 @@ Open Issues to share suggestions
 
 🔗 Featured Projects:
 
-Image Gallery <link>https://google.com</link>
+Image Gallery - <link>https://dhanush1493.github.io/Web-development/Image%20Gallery/</link>
 
-Dhanush Car Studio
+Dhanush Car Studio - <link>https://dhanush1493.github.io/Web-development/Car%20Studio%20Webpage/</link>
 
-Dhanush E-commerce
+Dhanush E-commerce - <link>https://dhanush1493.github.io/Web-development/Dhanush%20E%20Commerce/</link>
 
-Analog Clock
+Analog Clock - <link>https://dhanush1493.github.io/Web-development/Analog%20Clock%20Web/</link>
 
-Calculator
+Calculator - <link>https://dhanush1493.github.io/Web-development/Calculator/</link>
 
-Digital Clock
+Digital Clock - <link>https://dhanush1493.github.io/Web-development/digital%20clock/</link>
